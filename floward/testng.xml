@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNgMavenExampleSuite" parallel="false">
+	<listeners>
+	<listener class-name="tests.TestAllureListener"/>
+	</listeners>
+	<test name="TestNgMavenTest">
+		<classes>
+
+			<class name="tests.AddToCart" />
+
+		</classes>
+	</test>
+</suite>
